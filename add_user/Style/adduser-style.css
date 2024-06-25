@@ -1,0 +1,305 @@
+/*common CSS*/
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    height: 350vh;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+::placeholder {
+    font-size: 0.9rem;
+    color: rgb(47, 47, 47);
+    font-weight: 600;
+}
+
+
+/*-GET JS Code-*/
+
+.navBody {
+    margin-left: 120px;
+    justify-content: space-between;
+    padding: 0px 50px;
+    transition: 0.5s;
+}
+
+.DropUp {
+    display: none;
+}
+
+
+/*--Add Php CSS---*/
+
+th,
+td {
+    border: 2px solid #313131;
+}
+
+table {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: 0% auto;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(236, 139, 231);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(152, 166, 243);
+}
+
+
+/*---START ADMIN PAGE CONTACT--*/
+
+#navigation {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    position: fixed;
+    border-bottom: 1px solid #525252;
+    margin-left: 0px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.logo-icon {
+    width: 220px;
+}
+
+.logo-icon img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#close,
+.menubut,
+.fa-xmark {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #454187;
+    transition: 1s;
+}
+
+#open,
+#close {
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: 700;
+    transition: 3s;
+}
+
+.admin-icon {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.admin-but {
+    display: flex;
+    align-items: center;
+    padding: 8px 35px;
+    border-radius: 4px;
+    background-color: #454187;
+    color: #fff;
+    font-weight: 550;
+    margin: 0px 25px;
+}
+
+#fauser-one {
+    color: #000;
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
+.fa-solid,
+.fa-regular {
+    padding: 5px;
+    font-size: 1.4rem;
+    color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+.fa-out {
+    color: red;
+}
+
+#slider {
+    width: 0px;
+    height: 100vh;
+    background-color: #080809;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: 0.4s;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#slider ul {
+    top: 0%;
+    left: 0%;
+    padding: 0;
+    margin: 0%;
+    width: auto;
+    height: auto;
+    padding: 0px 10px;
+    color: rgb(175, 175, 175);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#slider ul li {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 12px 8px;
+    border-bottom: rgb(194, 194, 194) 0.5px solid;
+}
+
+#add-palne {
+    width: 80%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transform: translate(180px, 150px);
+    transition: 0.5s;
+}
+
+.form-input {
+    width: 50%;
+    height: 100%;
+    margin: 0% auto;
+    margin-top: 100px;
+}
+
+fieldset {
+    padding: 50px 50px;
+}
+
+legend {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-input label {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-input input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px 20px;
+}
+
+#reset-but {
+    background-color: #000;
+    margin: 0px 0px 0px 20px;
+}
+
+.form-input input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    margin: 20px 0px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #454187;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+.form-input input {
+    border: 1px solid #000;
+}
+
+.button {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1e1c1e;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.head {
+    font-size: 2rem;
+    border-bottom: 2px solid #000;
+    margin: 0px 0px 20px 0px;
+}
+
+.button button {
+    width: 150px;
+    padding: 12px;
+    background-color: #454187;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 550;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#dropDwon {
+    width: 100%;
+    height: auto;
+}
+
+#input-remove input #remove {
+    background-color: #ab0000;
+}
+
+#input-update {
+    margin-bottom: 100px;
+}
+
+.form-input span {
+    color: rgb(225, 4, 4);
+}
+
+#refresh {
+    background-color: rgb(0, 202, 101);
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>Health Care Solutions</title>
+        <link rel = "icon" type = "image/x-icon" href = "images/logo/favicon.ico">
+        <link rel = "stylesheet" type = "text/css" href = "styles/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap" rel="stylesheet">
+        <script src = "js/navigation.js"></script>
+
+        <!--Add FontAwsom kit-->
+        <script src="https://kit.fontawesome.com/92800ec90a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class = "main_header">
+            <div class = "header">
+                <figure class = "logo_img">
+                    <a href = "index.html"><img id = "logo" alt = "HCS Logo" src = "images/logo/test.png" width = "250px" height = "50px"></a>
+                    <button class = "button login_btn" onclick = "window.location.href = 'login.html';"><b>Log In</b></button>
+                    <button class = "button admin_btn" onclick = "window.location.href = 'admin_login.html';"><b>Admin</b></button>
+                </figure>  
+            </div>
+            
+            <!---Navigation-->
+            <nav>
+                <div class = "main_navi">
+                    <div class = "dropdown">
+                        <button class = "dropbtn">Explore Plans&nbsp;<img src = "images/nav_arrowdrop.png" id = "drop_arrow" width = "12.5px" height = 12.5px>
+                        <div class = "plans">
+                            <a href = "#Plan01"><p>Individual Health Insurance</p></a>
+                            <a href = "#Plan02"><p>Family Health Insurance</p></a>
+                            <a href = "#Plan03"><p>Critical Illness Insurance</p></a>
+                            <a href = "#Plan04"><p>Senior Citizen Health Insurance</p></a>
+                            <a href = "#Plan05"><p>Personal Accident Insurance</p></a>
+                        </div>
+                    </div>
+                    
+                    <button onclick = "window.location.href = 'careers.html';">Careers</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button onclick = "window.location.href = 'FAQs.html';">FAQs</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button onclick = "window.location.href = 'about.html';">About Us</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button onclick = "window.location.href = 'contact.php';">Contact Us</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <div class="search" onclick="searchBox()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        &nbsp;&nbsp;<p>Search</p>
+                    </div>
+                </div>
+                <div class="search-Box" id="search-Box">
+
+                    <div id="area-search">
+        
+                        <form>
+        
+                            <input type="search" name="search" placeholder="Type Here....">
+                            <input type="submit" name="submit" value="Search">
+        
+                        </form>
+        
+                        <button onclick="CloseBox()"><i class="fa-solid fa-xmark"></i></button>
+        
+                    </div>
+        
+                </div>  
+            </nav>
+        </section>
+        <!----------------------------slideshow--------------------->
+        <div class = "slideshow">
+            <img id="image_slide" />
+        </div>
+    
+        <script>
+            var imgArray = [
+                'images/1.png',
+                'images/2.png',
+                'images/3.png',
+                'images/4.png',
+                'images/5.png'
+            ];
+            var imageIndex = 0;
+            var imageDuration = 5000;
+    
+            function slideShow() {
+                document.getElementById('image_slide').src = imgArray[imageIndex];
+                imageIndex++;
+                if (imageIndex == imgArray.length) { imageIndex = 0; }
+                setTimeout("slideShow()", imageDuration);
+            }
+            slideShow();
+        </script>
+
+        <p id = "intro"><br>Health Care Solutions provides access to information about various health plans and resources with major benefits. Join hands with us for a healthy and a bright future.</p>
+        <!---------------------------------------------------------Plan Contents--------------------------------------------------------->
+        <div class = "plan-content">
+            <div id = "p1">
+                <img alt = "Individual Health Insurance" src = "images/plan_icons/1.png" width = "625px" height = "250px">
+                <h3>Individual Health Insurance</h3>
+                <p>Individual health insurance can be adjutsted according to the needs of the person.It is a health plan which can be purchased by a person
+                   him/herself to maintain their health and take care of medical care whenever required.It offers medical coverage to the person on an individual health
+                   sum insured basis.
+                </p>
+                <button><b>Explore Plan</b></button>
+            </div>
+            <div id = "p2">
+                <img alt = "Family Health Insurance" src = "images/plan_icons/2.png" width = "625px" height = "250px">
+                <h3>Family Health Insurance</h3>
+                <p>A family health insurance plan is a kind of medical insurance that covers all your family members in a single health insurance policy.This includes 
+                    the spouse , dependant children and dependant parents. A family health insurance plan is a cost-effective and offers medical coverage to 
+                    the entire family at a single premium.
+                </p>
+                <button><b>Explore Plan</b></button>
+            </div>
+        </div>
+        <br>
+        <button class = "planBtn" onclick = "window.location.href = 'plans.html';"><b>More Plans</b></button>
+        <br><br><br>
+        <!--------------------------------------------------------------------About------------------------------------------------------>
+        <div class = "about-container">
+            <div class = "about">
+                <h2>About Us</h2>
+                <p id = "info" style = "text-align: justify;">Health Care Solutions, One Of The Leading Life Insurance Solutions And Bancassurance Provider In The Country Has Been In The Business Of 
+                               Protecting Lives, Empowering People Achieve Their Dreams, And Providing Peace Of Mind To Thousands Of Sri Lankans Since 1987. Under The Banner 
+                               ' Your Life, Our Strength, ' We Have Nurtured The Sri Lankan Dream In Unique And Personal Ways To Support Our Policyholders And The People They Love.
+                </p>
+                <br>
+                <button onclick = "window.location.href = 'about.html';"><b>More Information</b></button>
+            </div>
+            <div class = "about">
+                <img src ="images/about.png" width = "700px" height = "250px">
+            </div>
+        </div>
+        <!-------------------------------------------------------------------Why----------------------------------------------------------->
+        <div class = "why">
+            <div class = "whySub">
+                <h1>Why HCS?</h1>
+            </div>
+            <div class = "whySub">
+                <p><i class="fa-solid fa-sack-dollar"></i>Guaranteed Returns</p>
+            </div>
+            <div class = "whySub">
+                <p><i class="fa-solid fa-gift"></i>Exclusive Benefits</p>
+            </div>
+            <div class = "whySub">
+                <p><i class="fa-solid fa-clock"></i>Available<br>24/7</p>
+            </div>
+        </div>
+        <br>
+        <!----------------------------------------------------------------SocialMedia-------------------------------------------------------->
+        <div class = "Logo">
+            <div class = "hcsLogo">
+                <img alt = "Logo" src = "images/logo/logo1.png" width = "160px" height = "120px">
+            </div>
+        </div>
+        <div class = "social_icons">
+            <div class = "icons">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href = "https://www.facebook.com/"><img alt = "facebook" src = "images/social icons/facebook.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.twitter.com"><img alt = "twitter" src = "images/social icons/twitter.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.instagram.com"><img alt = "instagram" src = "images/social icons/instagram.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.googleplus.com"><img alt = "googleplus" src = "images/social icons/googleplus.png" width = "40px" height ="40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <br>
+        <!------------------------------------------------------------------footer------------------------------------------------------------>
+        <section class = "footer">
+            <div class = "footer-menu">
+                <ul>
+                    <li><a style = "color:white;" href = "">Terms of Use</a></li>
+                    <li><a style = "color:white;" href = "careers.html">Careers</a></li>
+                    <li><a style = "color:white;" href = "FAQs.html">FAQs</a></li>
+                    <li><a style = "color:white;" href = "contact.php">Contact US</a></li>
+                </ul>
+            </div> 
+            <div class = "footer_copyright">
+                <p id = "copyright" style = "color:white;">© 2022 Health Care Solutions.Designed and maintained by API (PVT) Ltd</p>
+            </div>        
+        </section>
+    </body>
+</html>

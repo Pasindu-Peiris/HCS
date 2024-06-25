@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Add title-->
+    <title>FAQs | Health Care Solution</title>
+
+    <!---Add fav icon --->
+    <link rel="shortcut icon" href="./Images/allianz-logo.svg">
+
+    <!--Add Style CSS -->
+    <link rel="stylesheet" href="./Faqs-style.css">
+
+    <!---Add fontawosem-->
+    <script src="https://kit.fontawesome.com/92800ec90a.js" crossorigin="anonymous"></script>
+
+    <!---------Add google font ------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--Strat Navigation -->
+    <nav id="navigation">
+
+        <!--First nav-->
+
+        <div class="first-nav" id="first-nav">
+
+            <!--Logo-->
+            <div class="Logo">
+
+                <img src="./logo/test.png" alt="Logo.png">
+
+            </div>
+
+            <!-- Button -->
+            <div class="log-button">
+
+                <a href="#" class="Admin button">Admin</a>
+                <a href="#" class="Login button">Log in </a>
+
+            </div>
+
+        </div>
+
+        <!--Second nav-->
+
+        <div class="second-nav" id="second-nav">
+
+
+            <div class="menu">
+                <ul>
+
+                    <div class="dropmenu">
+
+                        <button class="dwonbut">Explore Plans <i class="fa-solid fa-caret-down"></i></button>
+
+                        <div class="dropmenu-cont">
+
+                            <a href="">Individual Health Insurance</a>
+                            <a href="">Family Health Insurance</a>
+                            <a href="">Critical Illness Insurance</a>
+                            <a href="">Senior Citizen Health Insurance</a>
+                            <a href="">Personal Accident Insurance</a>
+
+                        </div>
+
+                    </div>
+
+
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+
+
+                </ul>
+
+            </div>
+
+            <div class="search" onclick="searchBox()">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <p>Search</p>
+
+            </div>
+
+        </div>
+
+        <!--Search Box -->
+
+        <div class="search-Box" id="search-Box">
+
+            <div id="area-search">
+
+                <form>
+
+                    <input type="search" name="search" placeholder="To search start typing.. ">
+                    <input type="submit" name="submit" value="Search">
+
+                </form>
+
+                <button onclick="CloseBox()"><i class="fa-solid fa-xmark"></i></button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--  End First Nnavigation section  --->
+
+
+    <!--Strat first section -->
+
+    <section id="first-sec">
+
+        <div class="page-path">
+            <a href="#">Home</a>
+            <i class="fa-solid fa-angle-right"></i>
+            <a href="#">FAQs</a>
+        </div>
+
+        <div class="text-box">
+
+            <h1>Freaquently Asked Question</h1>
+
+        </div>
+
+        <div class="answer-box">
+
+            <div class="box-1">
+
+                <div class="box-head">
+
+                    <h2>Select the question you wish</h2>
+                    <i class="fa-solid fa-plus" id="clickDown"></i>
+
+                </div>
+
+                <div class="ans-box" id="ans-box">
+
+                    <div class="box-answer">
+
+                        <h2>1. What is health insurance ? </h2>
+                        <p>Health insurance is an insurance product that provides cover for the medical and surgical expenses of an insured person, in case of a medical emergency. However, you are required to pay a premium to avail health insurance policy.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2>2. Why should I buy health insurance ? </h2>
+                        <p>You should purchase health insurance so that you don’t lose your lifelong savings while paying for medical bills in a critical situation.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2> 3. What are the things I should consider before <br> buying my health insurance policy ? </h2>
+                        <p>You should purchase health insurance so that you don’t lose your lifelong savings while paying for medical bills in a critical situation.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2> 4. What are the types of health insurance plans I can buy ?</h2>
+                        <p>You can buy Individual Health Insurance Plans, Family Floater Health Insurance Plans, Senior Citizen Health Insurance Plans, Critical Illness Insurance Plans, Maternity Health Insurance Plans, Group Health Insurance Plans, and
+                            Personal Accident Insurance Plans.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2> 5. What is the eligible age to buy health insurance ?</h2>
+                        <p>You can buy Individual Health Insurance Plans, Family Floater Health Insurance Plans, Senior Citizen Health Insurance Plans, Critical Illness Insurance Plans, Maternity Health Insurance Plans, Group Health Insurance Plans, and
+                            Personal Accident Insurance Plans.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2>6. Will I be allowed to buy more than one health insurance plan ?</h2>
+                        <p>Yes, you are free to buy another plan based on your specific medical needs.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2> 7. What are the common coverage benefits under my health insurance ?</h2>
+                        <p>Health insurance benefits differ from policy to policy. However, basic health insurance benefits include cover for inpatient hospitalization, pre & post-hospitalization, daycare procedures, emergency ambulance expenses, organ donor
+                            expenses, domiciliary hospitalization, OPD expenses, and more.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2> 8. If I want to cancel my health insurance policy after purchasing it ?</h2>
+                        <p>If willing to cancel your health insurance policy after its purchase, you can do so within 15 days of receiving the policy documents. You will receive a refund only if you did not make any claims in the policy during that year.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2>9. What documents do I need if I want to buy health insurance ?</h2>
+                        <p>If you want to buy health insurance, you need to submit the documents like an identity card, driving license, and pre-medical check-up report (in some cases). The documents are required for age proof, identity proof, address proof,
+                            and medical check-ups.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2>10. Can I pay my health insurance premium in installments ?</h2>
+                        <p>In general, the health insurance premium is paid every year. But, you can pay your premium in installments (monthly, quarterly, or half-yearly basis) as well.</p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="box-answer">
+
+                        <h2>11. Will my health insurance policy expire if not renewed on time ?</h2>
+                        <p>
+                            Yes. Every policy comes with a validity of 1 year, 2 years, or 3 years, after which it needs to be renewed. The insurance companies provide you a grace period of 15 days from the date of expiry during which you can pay the premium and continue availing
+                            of policy benefits. If the premium is not paid even during the grace period, then the policy will lapse, and you will lose the accumulated benefits such as waiting for period benefits or No Claim Bonus and will have to buy
+                            a new policy to seek protection from healthcare expenses.</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--End first section -->
+
+    <hr>
+
+    <!--End Second section -->
+
+    <!--Start theard section -->
+    <section id="third-sec">
+
+        <div class="follow-logo">
+
+            <img src="./logo/logo1.png" alt="Logo.png">
+
+            <div class="follow-icon">
+
+                <img src="./logo/social icons/facebook.png " alt="">
+                <img src="./logo/social icons/twitter.png " alt="">
+                <img src="./logo/social icons/instagram.png " alt="">
+                <img src="./logo/social icons/googleplus.png " alt="">
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--End Thired Section -->
+    <section id="futter">
+
+        <div class="futter-menu">
+
+            <ul>
+
+                <li><a href="">Term of Use</a></li>
+                <li><a href="">Carrees</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Contact US</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="futter-detail">
+            <p>© 2022 Health Care solutions.Designed and maintained by API (pvt) Ltd</p>
+        </div>
+
+    </section>
+
+    <!--Start Futtore section -->
+
+
+
+    <!--Add script-->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

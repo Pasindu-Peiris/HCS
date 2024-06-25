@@ -1,0 +1,176 @@
+/* COMMON CSS */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#First-sec {
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.from-body {
+    width: 700px;
+    height: 90%;
+    text-align: left;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.from-body hr {
+    margin: 0px 0px 30px;
+    background-color: #000000;
+    height: 3px;
+    width: 90%;
+}
+
+.from-body form {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0% auto;
+    
+}
+
+.from-body form label span {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+.from-body form label {
+    margin: 20px 0px;
+}
+
+form input[type="text"],
+[type="email"],
+[type="tel"],
+[type="password"],
+[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    outline: none;
+}
+
+legend{
+    color: #54509E;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+fieldset{
+    border-color: #54509E;
+    padding: 60px;
+    border-radius: 20px;
+
+}
+
+form input {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+form input[type="submit"] {
+    background-color: #54509E;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    
+}
+
+form input[type="submit"]:hover {
+    background-color: #454187;
+    border: 2px #454187;
+    cursor: pointer;
+}
+
+.gender input[type="radio"] {
+    margin: 5px 5px 0px;
+}
+
+select {
+    width: 150px;
+    height: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #09090c;
+    color: #ffffff;
+}
+
+.idType {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.gender {
+    text-align: left;
+}
+
+.dob {
+    text-align: left;
+    width: -25%;
+}
+
+.line-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.line-text .dob input[type="date"] {
+    width: 450px;
+    height: 40px;
+}
+
+#already{
+    text-align: center;
+}
+
+#already a{
+    color: #54509E;
+    font-size:15px;
+    font-weight: 900;
+}
+
+
+#message{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #ffffff;
+}
+
+#password_warning{
+    /* font-size: 8px; */
+    font-size: 1rem;
+
+}

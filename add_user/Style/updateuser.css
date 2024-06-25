@@ -1,0 +1,49 @@
+
+
+
+form input[type="text"],
+[type="email"],
+[type="tel"],
+[type="password"],
+[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    outline: none;
+}
+
+legend{
+    color: #54509E;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+
+}
+fieldset{
+    border-color: #54509E;
+    padding: 160px;
+    border-radius: 20px;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+
+}
+
+form input {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+form input[type="submit"] {
+    background-color: #54509E;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    
+}
+

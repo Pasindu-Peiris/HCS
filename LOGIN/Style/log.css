@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Nav CSS*/
+
+nav {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.log-img {
+    width: 220px;
+}
+
+.log-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.log-button {
+    width: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 70px;
+    color: #454187;
+    font-size: 0.8rem;
+    font-weight: 800;
+    border: #454187 3px solid;
+    width: 100px;
+    padding: 5px 5px;
+    margin: 0px 5px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #454187;
+    color: #ffffff;
+}
+
+#First-sec {
+    width: 100%;
+    height: 100vh;
+    margin: 0% auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.page-path {
+    width: 92%;
+    height: 40px;
+    margin: 0% auto;
+    margin-top: 40px;
+    display: block;
+    align-items: center;
+}
+
+.page-path a {
+    font-weight: 550;
+    color: #454187;
+}
+
+.page-path a:first-child {
+    color: #000000;
+}
+
+.page-path i {
+    margin: 0px 20px;
+}
+
+.page-path hr {
+    background-color: #000000;
+    height: 10px;
+}
+
+.First-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.first-img {
+    width: 400px;
+}
+
+.first-img img {
+    width: 100%;
+    margin-top: 150px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.first-text {
+    width: 650px;
+    height: 400px;
+}
+
+.first-text form input[type="email"],
+.first-text form input[type="submit"] {
+    width: 80%;
+    height: 45px;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0px 20px;
+    outline: none;
+    font-size: 1.05rem;
+    font-weight: 520;
+}
+
+.first-text form input[type="submit"] {
+    width: 150px;
+    background-color: #454187;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+::placeholder {
+    font-size: 1.02rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.password-box {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#icon1 {
+    display: none;
+}
+
+.pass-box-1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pass-box-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 0px 450px;
+    position: absolute;
+    padding: 5px;
+}
+
+.fa-sharp {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fa-sharp :hover {
+    color: #454187;
+    transition: 2s;
+}
+
+
+/*add js class list*/
+
+form .password-box input[type="password"],
+form .password-box input[type="text"] {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px;
+    outline: none;
+    font-size: 1.05rem;
+    font-weight: 520;
+}
+
+.first-text form input[type="submit"]:hover {
+    background-color: #5b5bc0;
+}
+
+.first-text form label {
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+.first-text h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: #000000 2px solid;
+}
+
+.check-log {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.check-log label {
+    margin: 0px 10px 0px 0px;
+}
+
+.register a {
+    font-size: 1rem;
+    font-weight: 550;
+    margin: 0px 0px 0px 5px;
+}
+
+#atag {
+    color: #a166e1;
+    text-decoration: underline;
+}
+
+.register strong {
+    font-weight: 500;
+}
+
+#third-sec {
+    width: 100%;
+    height: 40vh;
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-logo {
+    width: 170px;
+}
+
+.follow-logo img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.follow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-icon img {
+    margin: 40px 20px 0px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#futter {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #454187;
+}
+
+.futter-menu {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.futter-menu ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.futter-menu ul li:nth-last-child(1) {
+    border: none;
+}
+
+.futter-menu ul li {
+    border-right: #ffffff 2px solid;
+    padding: 0px 40px;
+}
+
+.futter-menu ul li a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.futter-detail {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+}

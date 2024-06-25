@@ -1,0 +1,48 @@
+
+h3{
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:  #0000FF;
+
+}
+table{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+table,tr,td,th{
+    border: 1px solid rgb(200,200,200);
+    border-collapse: collapse;
+}
+th{
+    width: 500px;
+    height: 30px;
+    background: #0074B7;
+    color: white;
+    
+}
+td{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    
+   
+}
+a.newuser{
+    
+    
+    border-radius: 0.1rem;
+    width: 500px;
+    height: 30px;
+    
+    color:  #0000FF;
+
+}
+
+a.edit{
+    color: #0000FF;
+    
+}

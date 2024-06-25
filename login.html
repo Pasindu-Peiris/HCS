@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>Health Care Solutions | Login</title>
+        <link rel = "icon" type = "image/x-icon" href = "images/logo/favicon.ico">
+        <link rel = "stylesheet" type = "text/css" href = "styles/main.css">
+        <link rel = "stylesheet" type = "text/css" href = "styles/login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap" rel="stylesheet">
+
+        <!--Add FontAwsom kit-->
+        <script src="https://kit.fontawesome.com/92800ec90a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class = "main_header" style = "border-bottom:1px solid gray;">
+            <div class = "header">
+                <figure class = "logo_img">
+                    <a href = "index.html"><img id = "logo" alt = "HCS Logo" src = "images/logo/test.png" width = "250px" height = "50px"></a>
+                    <button class = "button login_btn" onclick = "window.location.href = 'admin_login.html';"><b>Admin</b></button>
+                </figure>  
+            </div>
+        </section>
+        <br><br><br>
+        <section class = "login-container">
+            <div class = "login">
+                <p><br></p>
+                <form id = "login_form" action = "" method = "POST">
+				
+                    <fieldset id = "fieldset">
+					
+					<br>
+					<br>
+					<center>
+					<img src="images/logo/logo1.png" alt="photo" width= "200" height="200">
+					</center>
+					<br>
+                        <legend id = "heading">LOGIN</legend>
+                        <label for = "email"><b>Email</b></label><br> 
+                        <input type = "email" name = "email" placeholder = "Enter your email address"><br>
+                        <label for = "password"><b>Password</b></label><br>
+                        <input type = "password" name = "password" placeholder = "Enter your password"<br><br>
+						
+						<br>
+						
+						<label class="rememb" for="rememb"><b>Remember me</b></label>
+						<input type="checkbox" name="remember">
+                        <br>
+						<br>
+                        <input type="submit" value="Continue" onclick="getinfo()">
+						<br>
+						
+						<label class="tab" for="register">
+						<center>
+						<div class="text-a">Don't have an account?<a href="register.php"> Register</a></div>
+						</center>
+                    </fieldset>
+					
+			
+					
+                </form>
+				
+				 
+            </div>
+        </section>
+        <br><br>
+        <!----------------------------------------------------------------SocialMedia-------------------------------------------------------->
+        <br>
+        <div class = "social_icons">
+            <div class = "icons">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href = "https://www.facebook.com/"><img alt = "facebook" src = "images/social icons/facebook.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.twitter.com"><img alt = "twitter" src = "images/social icons/twitter.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.instagram.com"><img alt = "instagram" src = "images/social icons/instagram.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.googleplus.com"><img alt = "googleplus" src = "images/social icons/googleplus.png" width = "40px" height ="40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <br>
+        <!------------------------------------------------------------------footer------------------------------------------------------------>
+        <section class = "footer">
+            <div class = "footer-menu">
+                <ul>
+                    <li><a style = "color:white;" href = "">Terms of Use</a></li>
+                    <li><a style = "color:white;" href = "careers.html">Careers</a></li>
+                    <li><a style = "color:white;" href = "FAQs.html">FAQs</a></li>
+                    <li><a style = "color:white;" href = "contact.php">Contact US</a></li>
+                </ul>
+            </div> 
+            <div class = "footer_copyright">
+                <p id = "copyright" style = "color:white;">© 2022 Health Care Solutions.Designed and maintained by API (PVT) Ltd</p>
+            </div>        
+        </section>
+    </body>
+</html>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700;900&display=swap');
+
+/*----------------------------------------Referenced----------------------------------------*/
+/*https://catswhocode.com/how-to-make-a-responsive-website/*/
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+img { max-width: 100%; height: auto; }
+
+/*----------------------------------------------------------------------------------------------*/
+
+#heading{
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:30px;
+    font-weight:900;
+    color:#54509E;
+
+}
+
+
+.login-container{
+    text-align:center;
+	justify-content:center;
+	padding:25px 30px;
+	display:grid;
+	min-height: 500px;
+	min-width:500px;
+	
+	
+
+}
+
+label{
+    text-align:left;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:15px;
+    width:100px;
+    
+
+}
+
+#fieldset{
+    width:100%;
+    border-color:#54509E;
+    border-radius:20px;
+	min-height: 400px;
+	min-width: 400px;
+	
+	
+	
+}
+
+.text-a{
+    margin-top:4vh;
+	font-size:15px;
+    
+}
+div a{
+text-decoration: underline;
+color: #000;
+
+font-family:'Noto Sans SC', sans-serif;
+    font-size:15px;
+    font-weight:900;
+    color: #54509E;
+
+}
+.rememb{
+	font-size:12px;
+    color:#000000;
+	font-family:'Noto Sans SC', sans-serif;
+	
+}
+
+input[type=email] {
+    width: 50%;
+    text-align:center;
+    color: solid black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-color: #54509E;
+    border-radius: 4px;
+    font-family: 'Noto Sans SC', sans-serif;
+    cursor:text;
+}
+
+input[type=password] {
+    width: 50%;
+    text-align:center;
+    color: solid black;
+    padding: 12px 20px;
+    margin: 8px 0;
+	border-color: #54509E;
+    border-radius: 4px;
+    font-family: 'Noto Sans SC', sans-serif;
+    cursor: text;
+
+}
+
+
+
+input[type=submit] {
+    width: 50%;
+    background-color: #54509E;
+    font-family: 'Noto Sans SC', sans-serif;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 550;
+    text-transform: uppercase;
+
+}
+
+input[type="submit"]:hover{
+    background-color: #454187;
+
+}
+
+
+
+
+
+

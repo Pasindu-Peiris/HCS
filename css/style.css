@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700;900&display=swap');
+
+/*----------------------------------------Referenced----------------------------------------*/
+/*https://catswhocode.com/how-to-make-a-responsive-website/*/
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+img { max-width: 100%; height: auto; }
+
+
+
+.button{
+    background-color:white;
+    border:2.5px solid black;
+    text-align:center;
+    cursor:pointer;
+    padding:8px;
+    font-size: 12.5px;
+    float:right;
+    font-family: 'Noto Sans SC', sans-serif;
+    width:100px;
+    margin-top:0.45%;
+
+
+    
+}
+
+.admin_btn{
+    border-radius: 25px;
+    border-color: #54509E;
+    color:#54509E;
+    
+
+}
+
+.login_btn{
+    border-radius: 25px;
+    border-color: #54509E;
+    color:#54509E;
+    margin-left:10px;
+
+}
+
+.admin_btn:hover{
+    background-color: #54509E;
+    color:white
+
+}
+
+.login_btn:hover{
+    background-color:#54509E;
+    color:white;
+
+}
+
+.admin_btn:active{
+    background-color:#454187;
+    border-color: #454187;
+
+}
+
+.login_btn:active{
+    background-color: #454187;
+    border-color:#454187;
+
+}
+
+/* css for form */
+
+/* COMMON CSS */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#First-sec {
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.from-body {
+    width: 700px;
+    height: 90%;
+    text-align: left;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.from-body hr {
+    margin: 0px 0px 30px;
+    background-color: #000000;
+    height: 3px;
+    width: 90%;
+}
+
+.from-body form {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0% auto;
+    
+}
+
+.from-body form label span {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+.from-body form label {
+    margin: 20px 0px;
+}
+
+form input[type="text"],
+[type="email"],
+[type="tel"],
+[type="password"],
+[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    outline: none;
+}
+
+legend{
+    color: #54509E;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+fieldset{
+    border-color: #54509E;
+    padding: 60px;
+    border-radius: 20px;
+
+}
+
+form input {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+form input[type="submit"] {
+    background-color: #54509E;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    
+}
+
+form input[type="submit"]:hover {
+    background-color: #454187;
+    border: 2px #454187;
+    cursor: pointer;
+}
+
+.gender input[type="radio"] {
+    margin: 5px 5px 0px;
+}
+
+select {
+    width: 150px;
+    height: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #09090c;
+    color: #ffffff;
+}
+
+.idType {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.gender {
+    text-align: left;
+}
+
+.dob {
+    text-align: left;
+    width: -25%;
+}
+
+.line-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.line-text .dob input[type="date"] {
+    width: 450px;
+    height: 40px;
+}
+
+#already{
+    text-align: center;
+}
+
+#already a{
+    color: #54509E;
+    font-size:15px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+.Logo{
+    text-align:center;
+    padding: 20px 0;
+
+
+}
+
+
+.social_icons{
+    display:flex;
+    text-decoration:none;
+    justify-content:center;
+    padding: 20px 0;
+
+}
+
+.footer{
+    width:100%;
+    height:auto;
+    display:block;
+    align-items:center;
+    justify-content:center;
+    background-color:#54509E;
+    position:absolute;
+    width: 100%;
+    left:0;
+
+}
+
+.footer-menu{
+    width:100%;
+    height:10vh;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+
+}
+
+.footer-menu ul{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    list-style-type:none;
+    font-family:'Noto Sans SC', sans-serif;
+
+}
+
+.footer-menu ul li{
+    padding:0px 40px;
+    font-family:'Noto Sans SC', sans-serif;
+    color:white;
+    border-right:2px solid white;
+
+}
+
+.footer-menu ul li:nth-last-child(1) {
+    border: none;
+
+}
+
+.footer-menu ul li a{
+    font-size:1rem;
+    font-weight:600;
+    text-decoration:none;
+    font-family:'Noto Sans SC', sans-serif;
+    color:solid black;
+
+}
+
+#copyright{
+    text-align:center;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:12px;
+    font-weight:600;
+    align-items:center;
+    background-color:#54509E;
+    justify-content:center;
+
+}

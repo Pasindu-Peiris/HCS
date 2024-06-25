@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>Health Care Solutions | About Us</title>
+        <link rel = "icon" type = "image/x-icon" href = "images/logo/favicon.ico">
+        <link rel = "stylesheet" type = "text/css" href = "styles/main.css">
+        <link rel = "stylesheet" type = "text/css" href = "styles/about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap" rel="stylesheet">
+        <script src = "js/navigation.js"></script>
+
+        <!--Add FontAwsom kit-->
+        <script src="https://kit.fontawesome.com/92800ec90a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--  start first section  --->
+        <section class = "main_header">
+            <div class = "header">
+                <figure class = "logo_img">
+                    <a href = "index.html"><img id = "logo" alt = "HCS Logo" src = "images/logo/test.png" width = "250px" height = "50px"></a>
+                    <button class = "button login_btn" onclick = "window.location.href = 'login.html';"><b>Log In</b></button>
+                    <button class = "button admin_btn" onclick = "window.location.href = 'admin_login.html';"><b>Admin</b></button>
+                </figure>  
+            </div>
+            
+            <!---Navigation-->
+            <nav>
+                <div class = "main_navi">
+                    <div class = "dropdown">
+                        <button class = "dropbtn">Explore Plans&nbsp;<img src = "images/nav_arrowdrop.png" id = "drop_arrow" width = "12.5px" height = 12.5px>
+                        <div class = "plans">
+                            <a href = "#Plan01"><p>Individual Health Insurance</p></a>
+                            <a href = "#Plan02"><p>Family Health Insurance</p></a>
+                            <a href = "#Plan03"><p>Critical Illness Insurance</p></a>
+                            <a href = "#Plan04"><p>Senior Citizen Health Insurance</p></a>
+                            <a href = "#Plan05"><p>Personal Accident Insurance</p></a>
+                        </div>
+                    </div>
+                    
+                    <button onclick = "window.location.href = 'careers.html';">Careers</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button onclick = "window.location.href = 'FAQs.html';">FAQs</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button onclick = "window.location.href = '#About Us';">About Us</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button onclick = "window.location.href = 'contact.php';">Contact Us</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <div class="search" onclick="searchBox()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        &nbsp;&nbsp;<p>Search</p>
+                    </div>
+                </div>
+                <div class="search-Box" id="search-Box">
+
+                    <div id="area-search">
+        
+                        <form>
+        
+                            <input type="search" name="search" placeholder="Type Here....">
+                            <input type="submit" name="submit" value="Search">
+        
+                        </form>
+        
+                        <button onclick="CloseBox()"><i class="fa-solid fa-xmark"></i></button>
+        
+                    </div>
+        
+                </div>  
+            </nav>
+        </section>
+        <section id="First-sec">
+
+            <div class="page-path" id = "page-path">
+    
+                <a href="index.html">Home</a>
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="#">About Us</a>
+    
+            </div>
+    
+            <hr>
+    
+            <div class="First-img">
+    
+                <img src="images/about.svg" alt="back.svg">
+    
+            </div>
+    
+            <hr>
+    
+    
+    
+        </section>
+    
+        <!--  start second section  --->
+    
+        <section id="second-sec">
+    
+            <div class="second-head">
+    
+                <h1>About Us</h1>
+                <strong>About Health Care Solutions and 30+ Years Of Insuring experience.</strong>
+    
+                <div class="text-info">
+    
+                    <p>
+                        Health Care Solutions, One Of The Leading Life Insurance Solutions And Bancassurance Provider In The Country Has Been In The Business Of Protecting Lives, Empowering People Achieve Their Dreams, And Providing Peace Of Mind To Thousands Of Sri Lankans
+                        Since 1987. Under The Banner ' Your Life, Our Strength, ' We Have Nurtured The Sri Lankan Dream In Unique And Personal Ways To Support Our Policyholders And The People They Love.</p>
+    
+                    <p>
+    
+                        At Union Assurance, We Offer A Range Of Life Insurance Solutions Covering Areas Such As Investment, Protection, Retirement, Education, Health And Employment Designed To Meet The Needs Of A Wholesome Life. Anchored By A Team Of Experienced And Dynamic
+                        Professionals, A Strong Capital Base And Reinsurance Partnerships With Highly Rated Global Reinsurers, We Ensure Our Tailor-Made Insurance Products And Services Are Of International Standards.
+    
+                    </p>
+    
+                </div>
+    
+            </div>
+    
+            <div class="box-type">
+    
+    
+                <div class="item">
+    
+                    <div class="icon">
+    
+                        <i class="fa-solid fa-trophy i-size"></i>
+    
+                    </div>
+    
+                    <div class="text">
+    
+                        <h4>Mission</h4>
+    
+                        <p>To Provide protection, financial security and create wealth for to those who are connected with us.</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="item">
+    
+                    <div class="icon">
+    
+                        <i class="fa-solid fa-eye i-size"></i>
+    
+                    </div>
+    
+                    <div class="text">
+    
+                        <h4>Vision</h4>
+    
+                        <p>To be the most sought after provider of insurance solutions.</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="item">
+    
+                    <div class="icon">
+    
+                        <i class="fa-solid fa-handshake i-size"></i>
+    
+                    </div>
+    
+                    <div class="text">
+    
+                        <h4>Our Values</h4>
+    
+                        <p>Excellence, Caring, Innovation, Trust, Ethics and Integrity</p>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <hr>
+    
+        </section>
+    
+        <!--  End second section  --->
+    
+        <!----------------------------------------------------------------SocialMedia-------------------------------------------------------->
+        <div class = "Logo">
+            <div class = "hcsLogo">
+                <img alt = "Logo" src = "images/logo/logo1.png" width = "160px" height = "120px">
+            </div>
+        </div>
+        <div class = "social_icons">
+            <div class = "icons">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href = "https://www.facebook.com/"><img alt = "facebook" src = "images/social icons/facebook.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.twitter.com"><img alt = "twitter" src = "images/social icons/twitter.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.instagram.com"><img alt = "instagram" src = "images/social icons/instagram.png" width = "40px" height = "40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class = "icons">
+                <a href = "https://www.googleplus.com"><img alt = "googleplus" src = "images/social icons/googleplus.png" width = "40px" height ="40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <br>
+        <!------------------------------------------------------------------footer------------------------------------------------------------>
+        <section class = "footer">
+            <div class = "footer-menu">
+                <ul>
+                    <li><a style = "color:white;" href = "">Terms of Use</a></li>
+                    <li><a style = "color:white;" href = "careers.html">Careers</a></li>
+                    <li><a style = "color:white;" href = "FAQs.html">FAQs</a></li>
+                    <li><a style = "color:white;" href = "contact.php">Contact US</a></li>
+                </ul>
+            </div> 
+            <div class = "footer_copyright">
+                <p id = "copyright" style = "color:white;">© 2022 Health Care Solutions.Designed and maintained by API (PVT) Ltd</p>
+            </div>        
+        </section>
+    </body>
+</html>
